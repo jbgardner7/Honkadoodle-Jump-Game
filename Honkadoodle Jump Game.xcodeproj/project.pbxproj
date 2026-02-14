@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		D78B53732F2C92DA00C5B6D5 /* Honkadoodle Jump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Honkadoodle Jump.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78B53732F2C92DA00C5B6D5 /* Honkadoodle Jump Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Honkadoodle Jump Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		D78B53742F2C92DA00C5B6D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D78B53732F2C92DA00C5B6D5 /* Honkadoodle Jump.app */,
+				D78B53732F2C92DA00C5B6D5 /* Honkadoodle Jump Game.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D78B53722F2C92DA00C5B6D5 /* Honkadoodle Jump */ = {
+		D78B53722F2C92DA00C5B6D5 /* Honkadoodle Jump Game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D78B538A2F2C92DC00C5B6D5 /* Build configuration list for PBXNativeTarget "Honkadoodle Jump" */;
+			buildConfigurationList = D78B538A2F2C92DC00C5B6D5 /* Build configuration list for PBXNativeTarget "Honkadoodle Jump Game" */;
 			buildPhases = (
 				D78B536F2F2C92DA00C5B6D5 /* Sources */,
 				D78B53702F2C92DA00C5B6D5 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				D78B53752F2C92DA00C5B6D5 /* Honkadoodle Jump */,
 			);
-			name = "Honkadoodle Jump";
+			name = "Honkadoodle Jump Game";
 			packageProductDependencies = (
 			);
 			productName = "Honkadoodle Jump";
-			productReference = D78B53732F2C92DA00C5B6D5 /* Honkadoodle Jump.app */;
+			productReference = D78B53732F2C92DA00C5B6D5 /* Honkadoodle Jump Game.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D78B536E2F2C92DA00C5B6D5 /* Build configuration list for PBXProject "Honkadoodle Jump" */;
+			buildConfigurationList = D78B536E2F2C92DA00C5B6D5 /* Build configuration list for PBXProject "Honkadoodle Jump Game" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D78B53722F2C92DA00C5B6D5 /* Honkadoodle Jump */,
+				D78B53722F2C92DA00C5B6D5 /* Honkadoodle Jump Game */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +252,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -283,6 +284,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -309,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D78B536E2F2C92DA00C5B6D5 /* Build configuration list for PBXProject "Honkadoodle Jump" */ = {
+		D78B536E2F2C92DA00C5B6D5 /* Build configuration list for PBXProject "Honkadoodle Jump Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D78B53882F2C92DC00C5B6D5 /* Debug */,
@@ -318,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D78B538A2F2C92DC00C5B6D5 /* Build configuration list for PBXNativeTarget "Honkadoodle Jump" */ = {
+		D78B538A2F2C92DC00C5B6D5 /* Build configuration list for PBXNativeTarget "Honkadoodle Jump Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D78B538B2F2C92DC00C5B6D5 /* Debug */,
